@@ -15,6 +15,6 @@ jobs:
           fetch-depth: 0
 
       - name: DCO Check Action
-        uses: atylerq/dco-action@v1
+        uses: ajonn/dco-check-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
